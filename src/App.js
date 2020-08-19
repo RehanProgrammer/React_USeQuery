@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <h1>Star Wars Info</h1>
+        <h1>Star Wars Info by Rehan</h1>
         <Nav setPage={setPage} />
         <div className="content"></div>
         {page === "planets" ? <Planets /> : <People />}
